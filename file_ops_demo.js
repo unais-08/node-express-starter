@@ -4,7 +4,7 @@
  * checking file existence, and deleting a file using Node.js's File System module.
  */
 
-const fs = require("fs");
+const fs = require("fs").promises;
 const path = require("path");
 
 const fileOps = async () => {
@@ -49,5 +49,29 @@ const fileOps = async () => {
   }
 };
 
+//create directory
+
+const dirPath = path.join(__dirname, "newDir");
+
+const createDir = async () => {
+  try {
+    await fs.mkdir(dirPath);
+    console.log("Directory created successfully!");
+  } catch (err) {
+    console.error("Error creating directory:", err);
+  }
+};
+//remove directory
+const removeDir = async () => {
+  try {
+    await fs.rmdir(dirPath);
+    console.log("Directory removed successfully!");
+  } catch (err) {
+    console.error("Error removing directory:", err);
+  }
+};
+
 // Execute the file operations
 fileOps();
+createDir();
+removeDir();
