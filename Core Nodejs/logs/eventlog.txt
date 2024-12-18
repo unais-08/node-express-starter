@@ -1,0 +1,8 @@
+18-12-2024	12:14:46	293c4a8b-3564-41d1-b7a4-fdf7343c856d	Method: GET	URL: http://localhost:3000 /
+18-12-2024	12:14:46	08abf3e8-8974-41b0-b5de-ae367cfa808d	Served: / (Home page)
+18-12-2024	12:14:49	142ee447-57e8-4fea-9384-e7bda21657be	Method: GET	URL: http://localhost:3000 /about
+18-12-2024	12:14:49	30a0566f-b695-41a0-ba69-160ddb3d2a27	Served: /about
+18-12-2024	12:14:54	4ac4e0ce-35ce-41ea-9723-0a779ca00f5b	Method: GET	URL: http://localhost:3000 /world
+18-12-2024	12:14:54	9376c123-4c67-445b-aebe-a0585f5ab038	Served: /world
+18-12-2024	12:14:59	b1d29b2e-8773-49a5-a6dc-16db5d26ae0e	Method: GET	URL: http://localhost:3000 /unkown
+18-12-2024	12:14:59	14303b62-2a8a-4757-85b5-ef92e8b8ea99	Not Found
