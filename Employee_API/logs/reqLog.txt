@@ -1,0 +1,5 @@
+19-12-2024	19:42:15	e0b48ec3-5932-4ad5-bf8a-d440a2417846	GET	undefined	/api/employees
+19-12-2024	19:42:20	18aa4cc2-201e-4588-8124-f134f4f15f45	POST	undefined	/api/register
+19-12-2024	19:42:38	91b58f90-60a4-4f4f-aa3a-884cb63342b3	POST	undefined	/api/employees
+19-12-2024	19:42:28	8849b577-7bd4-4b79-844f-bde9ef3834d6	POST	undefined	/api/auth
+19-12-2024	19:42:41	0418b9b8-6595-4f3e-b611-b648746123fd	POST	undefined	/api/auth
